@@ -57,7 +57,7 @@ public class RewardBoardView extends View {
 
     private void drawTitle(Canvas c) {
         text.setColor(Color.rgb(96,96,96)); text.setTextSize(Math.min(getWidth()*.055f,getHeight()*.11f));
-        c.drawText("אני מקשיב לצוות",getWidth()*.63f,getHeight()*.16f,text);
+        c.drawText("I'm listening to the team",getWidth()*.63f,getHeight()*.16f,text);
     }
 
     private void drawEarToken(Canvas c,int i) {
